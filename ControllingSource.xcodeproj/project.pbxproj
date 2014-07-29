@@ -89,6 +89,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		655521281988254600FD0EE9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				65C11A871988110700ABF2D0 /* ASFMasterViewController.h */,
+				65C11A881988110700ABF2D0 /* ASFMasterViewController.m */,
+				65C11A8A1988110700ABF2D0 /* ASFDetailViewController.h */,
+				65C11A8B1988110700ABF2D0 /* ASFDetailViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		65552129198825A300FD0EE9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				65C11A811988110700ABF2D0 /* Main.storyboard */,
+				65C11A8D1988110700ABF2D0 /* Images.xcassets */,
+				65C11A841988110700ABF2D0 /* ControllingSource.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		65C11A611988110700ABF2D0 = {
 			isa = PBXGroup;
 			children = (
@@ -125,13 +146,8 @@
 			children = (
 				65C11A7E1988110700ABF2D0 /* ASFAppDelegate.h */,
 				65C11A7F1988110700ABF2D0 /* ASFAppDelegate.m */,
-				65C11A811988110700ABF2D0 /* Main.storyboard */,
-				65C11A871988110700ABF2D0 /* ASFMasterViewController.h */,
-				65C11A881988110700ABF2D0 /* ASFMasterViewController.m */,
-				65C11A8A1988110700ABF2D0 /* ASFDetailViewController.h */,
-				65C11A8B1988110700ABF2D0 /* ASFDetailViewController.m */,
-				65C11A8D1988110700ABF2D0 /* Images.xcassets */,
-				65C11A841988110700ABF2D0 /* ControllingSource.xcdatamodeld */,
+				65552129198825A300FD0EE9 /* Resources */,
+				655521281988254600FD0EE9 /* View Controllers */,
 				65C11A761988110700ABF2D0 /* Supporting Files */,
 			);
 			path = ControllingSource;
@@ -473,6 +489,7 @@
 				65C11AA71988110700ABF2D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65C11AA81988110700ABF2D0 /* Build configuration list for PBXNativeTarget "ControllingSourceTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +498,7 @@
 				65C11AAA1988110700ABF2D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
